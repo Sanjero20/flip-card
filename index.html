@@ -4,19 +4,85 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="script.js"></script>
   <link rel="stylesheet" href="style.css">
-  <title>Match a Card</title>
+  <script src="script.js" defer></script>
+  <title>Print Syntax</title>
 </head>
 <body>
   <header class="theme">
-    <h1>Match a Card</h1>
+    <h1>Print Syntax</h1>
   </header>
   <main>
-    
+    <section>
+      <div class="card">
+        <div class="front">
+          <img class="logo" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" draggable="false"/>
+        </div>
+        <div class="back"><code>print("Hello, World!)</code></div>
+      </div>
+
+      <div class="card">
+        <div class="front">
+          <img class="logo" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" draggable="false"/>
+        </div>
+        <div class="back"><code>console.log("Hello, World!);</code></div>
+      </div>
+
+      <div class="card">
+        <div class="front">
+          <img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg" draggable="false"/>
+        </div>
+        <div class="back">
+          <pre>
+  #include &lt;iostream&gt;
+
+  int main() {
+      std::cout << "Hello World!";
+      return 0;
+  }</pre>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="front">
+          <img class="logo" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" draggable="false"/>
+        </div>
+        <div class="back">
+          <pre id="java">class HelloWorld {
+            public static void main(String[] args) {
+                System.out.println("Hello, World!"); 
+            }
+        }</pre>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="front">
+          <img class="logo" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" draggable="false"/>
+        </div>
+        <div class="back"><code>puts "Hello, World!"</code></div>
+      </div>
+
+      <div class="card">
+        <div class="front">
+          <img class="logo" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" draggable="false"/>
+        </div>
+        <div class="back">
+          <pre id="php">
+          &lt;?php 
+                echo "Hello, World!"; 
+          ?php&gt;
+          </pre>
+        </div>
+    </section>
+    <div class="buttons">
+      <button class="close">close</button>
+      <button class="open">open</button>
+    </div>
   </main>
+  
   <footer class="theme">
-    Copyright &copy; Sanjero
+    Copyright &copy; Sanjero 2022
   </footer>
 </body>
 </html>
