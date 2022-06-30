@@ -19,12 +19,12 @@ body {
 }
 
 header {
-  font-size: 25px;
+  font-size: 20px;
 }
 
 main section {
   padding: 30px;
-  max-width: 85%;
+  max-width: 1000px;
   margin: auto;
   display: flex;
   justify-content: center;
@@ -118,11 +118,6 @@ button:active{
 }
 
 #java {
-  font-size: 10px;
+  font-size: 14px;
 }
-
-#php {
-  padding-right: 40px;
-}
-
 
